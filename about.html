@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>WebDesign</title>
+    <link rel="stylesheet" href="stylee.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/faa2a99bc2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="subheader">
+        <nav>
+            <a href="index.html"><img src="img/Untitled-1.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times-circle" onclick="hidemenu()"></i>
+                 <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="https://www.hochschulkompass.de/en/degree-programmes/all-about-studying-in-germany/forms-of-study/international-programmes.html" target="blank">INTERNATIONAL PROGRAMMES</a></li>
+                    <li><a href="https://ranking.zeit.de/che/de/?wt_zmc=fix.int.zonaudev.alias.alias.zeitde.alias.che-ranking.x&utm_medium=fix&utm_source=alias_zonaudev_int&utm_campaign=alias&utm_content=zeitde_alias_che-ranking_x" target="blank1">UNIVERSITIES</a></li>
+                    <li><a href="">ABOUT US</a></li>
+                 </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div class="textbox">
+            <h1>Everthing about us</h1>
+            <p>We Help Students By giving them basic examination material by just a single tick at our site.</p>
+            <a href="#about" class="herobtn">Click to know more</a>
+        </div>
+    </section>
+    <section>
+        <div id="about" class="footer">
+            <h1>Our Mission:</h1>
+           <p>
+            Enabling people to connect throughout the education field. Enabling institutions to create leaders and technologists of world class for society and industry. Developing a support system for learning mastery. Enabling the general public to access high-quality educational resources.</p>
+            <h1>Our Vision:</h1>
+            <p>
+            Collaborate to develop and distribute content to help the public know better, to put in a group of thinkers engaged in innovative discourse. The most important principle we uphold is that we concentrate on making a few amazing items, rather than producing a lot of bad goods.</p>
+        </div>
+    </section>
+    <section class="icons">
+        <div class="social">
+            <a href="https://www.facebook.com/imaginefootball/" target="blank" class="fab fa-facebook"></a>
+            <a href="https://www.instagram.com/_imaginefootball_/" target="blank" class="fab fa-instagram"></a>
+        </div>
+    </section> 
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+        function hidemenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

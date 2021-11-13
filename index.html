@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>WebDesign</title>
+    <link rel="stylesheet" href="stylee.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/faa2a99bc2.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="img/Untitled-1.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times-circle" onclick="hidemenu()"></i>
+                 <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="https://www.hochschulkompass.de/en/degree-programmes/all-about-studying-in-germany/forms-of-study/international-programmes.html" target="blank">INTERNATIONAL PROGRAMMES</a></li>
+                    <li><a href="https://ranking.zeit.de/che/de/?wt_zmc=fix.int.zonaudev.alias.alias.zeitde.alias.che-ranking.x&utm_medium=fix&utm_source=alias_zonaudev_int&utm_campaign=alias&utm_content=zeitde_alias_che-ranking_x" target="blank1">UNIVERSITIES</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                 </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div class="textbox">
+            <h1>Top Universities</h1>
+            <p>Get admits in Top Universities like RWTH Aachen & TU munich</p>
+            <a href="https://www2.daad.de/deutschland/studienangebote/international-programmes/en/" target="blank3" class="herobtn"> Go to DAAD.DE</a>
+        </div>
+    
+    </section>
+    <!----UNIVERSTIES--->
+     
+    <section class="Uni">
+        <h1>Three Basic Steps to get an Admit</h1>
+        <a href="https://www.youtube.com/playlist?list=PLRLo6QDfqo8W7ct55A4j_PCvY2JAqFggl" target="blank4">Click to get more Info</a>
+        <div class="row">
+            <div class="column">
+                <h3>Shortlisting and Documents</h3>
+                <p> Choosing couple Universities and preparing documents accordingly</p>
+            </div>
+            <div class="column"><h3>Applying</h3>
+                <p>Cost, Time and mode of applying</p>
+            </div>
+            <div class="column"><h3>After Approval Process</h3>
+                <p> Getting an admit approval is just the first step, there is still a long way to go</p>
+            </div>
+            
+        </div> 
+    </section>   
+    <section class="campus">
+        <h1>INTERNATIONAL PROGRAMMES</h1>
+        <p>One of the most distinctive features of international degree programmes is that they involve a significant amount of compulsory lectures and courses taught in a foreign language, but the language itself is not the focus of academic study for the programme. Other characteristics of these programmes are the award of an international dual degree in conjunction with a higher education institution abroad, or a compulsory period of study or work in another country for a minimum of two semesters.</p>
+    </section>
+    <section class="icons1">
+        <div class="social">
+            <a href="https://www.facebook.com/imaginefootball/" target="blank" class="fab fa-facebook"></a>
+            <a href="https://www.instagram.com/_imaginefootball_/" target="blank" class="fab fa-instagram"></a>
+        </div>
+    </section> 
+      
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+        function hidemenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
